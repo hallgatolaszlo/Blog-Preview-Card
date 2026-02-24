@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+@import "./card.css";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	/* Colors */
+	--yellow: #f4d04e;
+	--gray-950: #111111;
+	--gray-500: #6b6b6b;
+	--white: #ffffff;
+
+	/* Fonts */
+	--font: "Figtree", sans-serif;
+
+	/* Spacing */
+	--spacing-50: 4px;
+	--spacing-100: 8px;
+	--spacing-150: 12px;
+	--spacing-200: 24px;
+}
+
+body {
+	height: 100vh;
+	background-color: var(--yellow);
+	-webkit-font-smoothing: antialiased;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.figtree-text1,
+.figtree-text2,
+.figtree-text3,
+.figtree-text3-bold {
+	font-family: var(--font);
+	font-style: normal;
+	letter-spacing: 0px;
+	line-height: 150%;
+	color: var(--gray-950);
+}
+
+.figtree-text1 {
+	font-size: 24px;
+}
+
+.figtree-text2 {
+	font-size: 16px;
+	color: var(--gray-500);
+}
+
+.figtree-text3 {
+	font-size: 14px;
+}
+
+.figtree-text3-bold {
+	font-size: 14px;
+	font-weight: bold;
+}
